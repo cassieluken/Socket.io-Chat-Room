@@ -1,0 +1,16 @@
+CHATLOG PHASE 3:
+
+In order to see the functionality of the chat you should use two tabs to create two users.
+You can input your name and the name of a chat room. 
+In order to see each others messages, both users must be in the same room. 
+On joining a room, the room name will display at the top and welcome ____yourname_____ .
+The System will then tell you what time you joined along with the message 'You have joined the room...'
+As soon as someone else enters the room, you get notified by the System ex: "System 2:45 pm Amarjeet has joined!"
+
+When chatting, your messages you've typed appear on the right-hand side, while any other users messages display on the left-hand side.
+There is a change rooms option on the top left corner of the chatbox that will bring you back to the 'login' with name and room name options. 
+
+Each message adds to the MongoDB with timestamp, name, text, and room. 
+
+Technologies used: NodeJS, MongoDB, socket.io, express, vs code
+

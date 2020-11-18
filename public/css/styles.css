@@ -1,0 +1,61 @@
+.vertical-center {
+	min-height: 100vh;
+	margin: 0;
+	display: flex;
+	align-items: center;
+}
+
+h1 {
+	margin: 24px 0;
+}
+
+.messages p {
+	margin: 6px 0;
+}
+
+body, html {
+	height: 100%;
+	color: white;
+	font-family: 'Quicksand';
+}
+img {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+	z-index: -1;
+	display: block;
+}
+.room-form{
+	background-color: #0e2128;
+}
+.msg-form{
+	background-color: #0f0f0f;
+}
+
+.room-title{
+	font-weight: bold;
+}
+.btn-dark:hover{
+	color: white;
+}
+.btn-dark{
+	background-color:#262626;
+	
+}
+.container{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	display: block;
+}
+.messages{
+	color: black;
+}
+.your-name{
+	color:white;
+	text-align: center;
+	background-color: #0e2128;
+	margin-bottom: 0;
+	padding: 10px;
+}
